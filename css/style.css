@@ -1,0 +1,21 @@
+@charset "utf-8";
+.titletext{
+	height: 30px;
+	width: 200px;
+	background-color: red;
+}
+.windowup{
+	height:20px;
+	width:200px;
+	background-color: blue;
+}
+.jump{
+	height:20px;
+	width:200px;
+	background-color: yellow;
+}
+.box{
+	height:200px;
+	width:200px;
+	background-color:pink ;
+}

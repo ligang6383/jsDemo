@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>js的练习</title>
+	<link rel="stylesheet" type="text/css" href="css/cssRest.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- <script src="js/index.js"></script> -->
+	<script type="text/javascript">
+		function changetext () {
+			 document.title="哈哈";  
+		}
+		function jinggao(){
+			window.alert("哈哈");
+			console.log('哈哈');
+		}
+		function jumpbaidu () {
+			 window.location="http://www.baidu.com"; 
+		}
+		function changebgbox1(){
+			document.getElementById("box1").style.backgroundColor="blue";
+		}
+		function changebgbox1up () {
+			document.getElementById("box1").style.backgroundColor="pink";
+		}
+	</script>
+</head>
+<body>
+	<div class="titletext" onclick="changetext() ">改变标题</div>
+	<div class="windowup" onclick="jinggao()">警告</div>
+	<div class="jump" onclick="jumpbaidu()">跳转</div>
+	<div class="box" id="box1" onmouseover="changebgbox1()" onmouseout ="changebgbox1up()"></div>
+</body>
+</html>
